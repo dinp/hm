@@ -19,7 +19,7 @@ HM每隔check_interval (单位s)
 - **server_http_api**: DINP Server模块的http api接口
 - **db**: DINP Server模块数据库的地址，以及超时时间
 
-install
+## install
 
 ```
 mkdir -p $GOPATH/src/github.com/dinp
