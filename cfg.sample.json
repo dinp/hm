@@ -1,0 +1,12 @@
+{
+	"debug": false,
+	"check_interval": 5,
+	"dockerPort": 2375,
+	"response_timeout": 3,
+	"health_sign": "ok",
+	"server_http_api": "http://10.1.2.3:1980/real",
+	"db": {
+		"dsn": "root:1234@tcp(10.1.2.3:3306)/dash?loc=Local&parseTime=true",
+		"maxIdle": 2
+	}
+}
